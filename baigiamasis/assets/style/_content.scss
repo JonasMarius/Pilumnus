@@ -1,0 +1,167 @@
+.content{  
+    margin: 150px 0 150px 0;
+    color: white;
+
+    .section-divider {
+        background-color: $pilumnus-orange;
+        width: 6rem;
+        height: 0.25rem;
+        margin: 1.25rem auto; }   
+
+//big divider/articals
+     .section-divider-2 {
+        background-color: $pilumnus-orange;
+        height: 0.25rem;
+        margin: 1.25rem auto; }   
+
+
+
+}
+
+//top-text css
+#top-text {
+    background-image: url("../images/toptext-border.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 170px 0 170px 0;
+    
+     >h2 {
+         color: $pilumnus-orange;
+         font-weight: 400;
+         font-size: 5rem;
+     }
+
+}
+
+//top-text css
+
+#about-me {
+
+//background image
+  
+    background-image: url("../images/about-block.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 170px 0 170px 0;
+    
+    //info
+    div:first-child {
+
+        padding: 170px 20px 170px 20px;
+
+    //more info button    
+        a {
+            color: $pilumnus-white;
+            text-decoration: none;
+        
+            
+            &:hover {
+                color: $pilumnus-grey;
+                text-decoration: none;
+        
+            }
+        }
+
+      h2 {
+         color: $pilumnus-orange;
+         font-weight: 400;
+         font-size: 3rem;
+     }}
+
+
+
+}
+// artical css
+#artical-1 { h2 {
+    
+        color: $pilumnus-orange;
+        font-weight: 400;
+        font-size: 3rem;
+    
+}}
+
+
+
+
+
+
+ //artical buttons   
+   .artical-link {
+    color: $pilumnus-white;
+    text-decoration: none;
+
+         &:hover {
+                color: $pilumnus-grey;
+                text-decoration: none;
+        
+                }
+    }
+
+    
+
+//gallery css
+
+#gallery-1{
+
+ h2 {
+    
+        color: $pilumnus-orange;
+        font-weight: 400;
+        font-size: 3rem;
+    
+}    
+//gallery buttons
+a {
+    color: $pilumnus-white;
+    text-decoration: none;
+
+    
+    &:hover {
+        color: $pilumnus-grey;
+        text-decoration: none;
+
+    }
+} }
+
+//gallery buttons
+#form {
+
+//background image
+    background-image: url("../images/about-block.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    padding: 190px 0 190px 30px;
+ //form input css   
+    #form-2 {
+
+        .section-divider {
+            background-color: $pilumnus-orange;
+            width: 6rem;
+            height: 0.25rem;
+         margin: 1.25rem auto; }
+
+        padding: 210px 30px 200px 0;
+
+//form buttons 
+        #contact-submit {
+            color: $pilumnus-white;
+            text-decoration: none;
+        
+           
+            &:hover {
+                color: $pilumnus-grey;
+                text-decoration: none;
+        
+            }
+        }
+
+      h2 {
+         color: $pilumnus-orange;
+         font-weight: 400;
+         font-size: 3rem;
+     }}
+
+
+
+}

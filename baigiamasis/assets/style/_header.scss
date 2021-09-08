@@ -1,0 +1,17 @@
+.navbar-light .nav-link {
+    color: $pilumnus-white;
+
+    
+    &:hover {
+        color: $pilumnus-grey;
+
+    }
+}
+
+#pilumnus-logo {
+    color: $pilumnus-orange;
+    font-weight: 400;
+    font-size: 2rem;
+}
+  
+
