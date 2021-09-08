@@ -1,0 +1,249 @@
+<?php require __DIR__. '/assets/src/app.php';?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+    
+    <title>Pilumnus</title>
+</head>
+<body>
+
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-opacity-10 px-3 ">
+  <div class="container">
+      <a class="navbar-brand " id="pilumnus-logo" href="#">Pilumnus</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="nav  ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#artical-1">Articals</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery-1">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+      </ul>
+  </div>
+</nav>
+
+<section class= "container">
+
+
+<!--top text-->
+<div class="content text-center" id="top-text"> 
+    <p>Lorem Ipsum</p>  
+    <hr class="section-divider">
+
+    <h2>Travel</h2>
+    <p>the inspirational Adventures around the world</p>
+</div>   
+
+
+<!--about me-->
+<div class="row content" id="about-me" >
+      <div class="col-xxl-6">
+        <h2 class="text-center">About me</h2>
+        <hr class="section-divider">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quasi delectus nisi, est veniam nihil fugit totam aliquid, eligendi at explicabo natus unde rerum? Inventore consequuntur itaque provident at sed.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quos animi earum porro placeat magnam aut similique, ipsam exercitationem at adipisci. Non, quasi! Vel sed beatae dicta quasi quos. Obcaecati?</p>
+        <button type="button" class="btn btn-outline-warning"> <a href="#">read more</a></button> <!-- pakeist spalva mygtuko -->
+      </div>
+
+      <div class="col-6 d-none d-xxl-block d-xl-none">
+        <img class="shadow-lg" src="assets/images/about-photo.jpg"  alt="about me">
+      </div>
+
+
+</div>  
+
+
+<!--articals-->
+<div class="text-center content" id="artical-1" >
+  <h2> Latest Articals </h2>
+  <hr class="section-divider">
+</div>
+
+
+<div class="row content">
+      <div class="col-md-4 artical-2">
+        <img class="img-fluid shadow-lg" src="assets/images/photo-artical1.jpg" alt="volture">
+        <h3>Lorem Ipsum dolores</h3>
+        <hr class="section-divider-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis at illo iure asperiores consequatur modi eligendi quae earum omnis, sequi ab numquam, magni culpa, harum voluptatem rerum id dolorem a?</p>
+        <p><a class="artical-link" href="#">Link></a></p>
+      </div>
+
+      <div class="col-md-4 artical-2">
+        <img class="img-fluid shadow-lg" src="assets/images/photo-artical2.jpg" alt="forest">
+        <h3>Lorem Ipsum dolores</h3>
+        <hr class="section-divider-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis at illo iure asperiores consequatur modi eligendi quae earum omnis, sequi ab numquam, magni culpa, harum voluptatem rerum id dolorem a?</p>
+        <p><a class="artical-link" href="#">Link></a></p>
+      </div>
+
+      <div class="col-md-4 artical-2">
+        <img class="img-fluid " src="assets/images/photo-artical3.jpg" alt="bear">
+        <h3>Lorem Ipsum dolores</h3>
+        <hr class="section-divider-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis at illo iure asperiores consequatur modi eligendi quae earum omnis, sequi ab numquam, magni culpa, harum voluptatem rerum id dolorem a?</p>
+        <p><a class="artical-link" href="#">Link></a></p>
+      </div>
+    </div>
+ 
+
+
+
+
+<!-- Gallery -->
+
+  
+<div class="content text-center" id="gallery-1">
+<h2>Gallery</h2>
+<hr class="section-divider">  
+
+<div class="row pt-5" >
+  <div class="col-md-4  mb-4 d-none d-md-block">
+    <img
+      src="assets/images/gallery1.jpg"
+      class="w-100 shadow  mb-4"
+      alt="1"
+    />
+
+    <img
+      src="assets/images/gallery2.jpg"
+      class="w-100 shadow  mb-4"
+      alt="2"
+    />
+  </div>
+
+  <div class="col-md-4 mb-4 d-none d-md-block">
+    <img
+      src="assets/images/gallery3.jpg"
+      class="w-100 shadow  mb-4"
+      alt="3"
+    />
+
+    <img
+      src="assets/images/gallery4.jpg"
+      class="w-100 shadow  mb-4"
+      alt="4"
+    />
+
+    <img
+      src="assets/images/gallery7.jpg"
+      class="w-100 shadow mb-4"
+      alt="7"
+    />
+  </div>
+
+  <div class="col-md-4 mb-4">
+    <img
+      src="assets/images/gallery5.jpg"
+      class="w-100 shadow  mb-4"
+      alt="5"
+    />
+
+    <img
+      src="assets/images/gallery6.jpg"
+      class="w-100 shadow mb-4"
+      alt="6"
+    />
+    
+
+  </div>
+  
+  
+</div>
+<button type="button" class="btn btn-outline-warning"> <a href="#">Show more</a></button>
+</div>
+
+
+
+
+
+<!-- form -->
+
+
+<div class="row  text-center" id="form">
+  <div class="container content col-6 d-none d-xxl-block d-xl-none">
+    <img src="assets/images/contact-photo.jpg" class="shadow-lg " id="form-image" alt="contact">
+  </div>
+
+  <div class="container col-12 col-md-6" id="form-2" >
+
+      <h2 >Form</h2>
+      <hr class="section-divider"> 
+
+      <div class="row">
+          <form id="contact" action="index.php" method="post">
+
+              <div class="col-md" >
+                  <div class="form-floating my-3 opacity-75"  >
+                  <input type="text" name="vardas" class="form-control" id="floatingInput1" placeholder="name@example.com">
+                  <label for="floatingInput">Your Name*</label>
+                  </div>
+              </div>
+
+              <div class="col-md">
+                <div class="form-floating my-3 opacity-75"  >
+                  <input type="email" name="email" class="form-control" id="floatingInput2" placeholder="email@example.com">
+                  <label for="floatingInput">Email address*</label>
+                </div>
+              </div>
+
+      </div>
+
+          <div class="form-floating" >
+              <textarea class="form-control my-2 opacity-75"  name="message" placeholder="Leave a comment here" style="height: 200px; max-height: 220px;" ></textarea>
+              <label for="floatingTextarea2">Comments*</label>
+          </div>
+
+          <button name="submit" type="submit" id="contact-submit" class="btn btn-outline-warning">Send message</button>   
+        </form> 
+      </div>
+  </div>
+</div> 
+
+
+</section>
+
+
+<!-- footer -->
+<footer class="text-center footer-pilumnus ">
+  <div class="container">
+    <span class="footer-text"><a class= "footer-link" href="#"><i class="fab fa-facebook-f"></i></a></span>
+    <span class="footer-text"><a class= "footer-link" href="#"><i class="fab fa-twitter"></i></a></span>
+    <span class="footer-text"><a class= "footer-link" href="#"><i class="fab fa-instagram"></i></a></span>
+    <span class="footer-text"><a class= "footer-link" href="#"><i class="fab fa-pinterest-p"></i></a></span>
+    
+  </div>
+</footer>
+
+
+
+
+    
+    <script src="https://kit.fontawesome.com/888afc50d2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>    
+</body>
+</html>
